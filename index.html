@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        th{
+            background: rgb(151, 151, 240)
+        }
+        td{
+            background: rgba(229, 174, 243, 0.422);
+        }
+        /* h2{
+            margin: 0;
+        }
+        p{
+            margin: 0;
+        }
+        .logic-block{
+            background: red;
+        }
+        #usl{
+            border: 2px solid black;
+        }
+        #usl * {
+            color: blue;
+        }
+        nav a {
+            color: #68bb25;
+        }
+        #usl, #zay{
+            background: rgb(185, 8, 255);
+        } */
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a href="/">Стажировки в <strong>IT</strong></a>
+                </div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href="#vac">Вакансии</a></li>
+                            <li><a href="#usl">Условия</a></li>
+                            <li><a href="#trb">Требования</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <a href="#zay">Подать заявку</a>
+                </div>
+            </div>
+            </div>
+    </header>
+    <main>
+       <div class="container">
+        <section class="logic-block">
+            <h1>Стажировка в одной из лучших IT-компаний России</h1>
+        </section>
+        <section class="logic-block" id="vac">
+            <h2>Вакансии</h2>
+            <ul>
+                <li>Frontend</li>
+                <li>Backend</li>
+                <li>Мобильная разработка</li>
+                <li>DevOps</li>
+                <li>Анализ данных</li>
+                <li>Машинное обучение</li>
+            </ul>
+        </section>
+        <section class="logic-block" id="usl">
+            <h2>Условия</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Стажировка в течение года</th>
+                    <th>Стажировка летняя</th>
+                    <th>Погружение: интенсивная стажировка</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Формат работы</th>
+                    <td colspan="2">✓ Очно или дистанционно</td>
+                    <td>✓ Очно</td>
+                </tr>
+                <tr>
+                    <th>Дата начала</th>
+                    <td>✓ Каждый месяц</td>
+                    <td>✓ Май</td>
+                    <td>✓ Февраль, Август</td>
+
+                </tr>
+                <tr>
+                    <th>Оплата проезда</th>
+                    <td colspan="3">✓ Да</td>
+                </tr>
+                <tr>
+                    <th>Оплата проживания</th>
+                    <td>✕ Нет</td>
+                    <td colspan="2">Да</td>
+                </tr>
+                <tr>
+                    <th>Занятость</th>
+                    <td colspan="2">✓ Гибкий график от 20 до 40 часов в неделю</td>
+                    <td>✓ Полная 5/2</td>
+                </tr>
+                <tr>
+                    <th>Продолжительность</th>
+                    <td>✓ От 3 до 6 месяцев</td>
+                    <td>✓ 3 месяца</td>
+                    <td>✓ 1 месяц</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Оплата</th>
+                    <td colspan="2">До 50 000 ₽</td>
+                    <td>До 100 000 ₽</td>
+                </tr>
+
+            </tfoot>
+        </table>
+    </section>
+    <section class="logic-block" id="trb">
+        <h2>Требования</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex asperiores ratione eligendi? Pariatur nobis amet sunt reiciendis quia. Temporibus eum repudiandae numquam consectetur autem voluptate. <strong>Rerum tempore iure dignissimos voluptate similique at nulla aliquid debitis voluptas aut quis quos quam sint minima aliquam,</strong> dolore incidunt! Optio culpa nulla, odio repellendus animi quam iure dolorum perspiciatis officia modi ut voluptas necessitatibus dignissimos eum, <em>maxime qui aut esse sed vero officiis beatae voluptatem minima quos! Facilis provident iste quaerat, ut, sequi inventore ipsa architecto quia hic error deleniti praesentium omnis est nemo, non quam nobis labore molestiae.</em> Accusantium eaque eos ad maxime?</p>
+    </section>
+    <section>
+       <video controls width="500" loop muted poster="./video/cover1.jpg">
+        <source src="./video/video1.mp4" type="video/mp4">
+        <source src="./video/video1.webm" type="video/webm">
+        <p>
+            Ваш браузер не поддерживает встроенные видео.
+            Попробуйте скачать по <a href="./video/video1.mp4">ссылке</a>.
+        </p>
+       </video> 
+    </section>
+    <section>
+        <object width="700" height="600" data="./object/Лекция_10.pdf" type="application/pdf">
+                <p>
+                    Ваш браузер не поддерживает объекты.
+                    Попробуйте скачать по <a href="./object/Лекция_10.pdf">ссылке</a>.                
+                </p>
+            </object>
+    </section>
+    <section class="logic-block zayavka" id="zay">
+        <h2>Подать заявку</h2>
+        <form action=" " method="get">
+
+            <label for="city">Ваш город</label>
+            <select name="city" id="city">
+                <option value="">--Выберите город--</option>
+                <option value="moscow">Москва</option>
+                <option value="saintpetersburg">Санкт-Петербург</option>
+                <option value="kazan">Казань</option>
+                <option value="nnovgorod">Нижний Новгород</option>
+            </select>
+
+            <label for="naps">Направление</label>
+            <select name="naps" id="naps">
+                <option value="">--Выберите направление--</option>
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="DevOps">DevOps</option>
+            </select>
+
+            <label for="name">Имя</label>
+            <input type="text" id="name" required>
+
+            <label for="surname">Фамилия</label>
+            <input type="text" id="surname" required>
+
+            <label for="mail">Email</label>
+            <input type="mail" id="mail" required>
+
+            <label for="tel">Телефон</label>
+            <input type="tel" id="tel" required>
+
+            <label for="education">Уровень вашего образования</label>
+            <fieldset>
+                <div>
+                    <label>
+                        <input type="checkbox" value="Среднее общее">Среднее общее
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" value="Среднее профессиональное">Среднее профессиональное
+                    </label>
+                </div>
+               <div>
+                <label>
+                    <input type="checkbox" value="Высшее">Высшее
+                </label>
+               </div>
+            </fieldset>
+
+            <label for="social">Ссылка на соцсети</label>
+            <input type="url" id="social" required>
+
+            <label for="desc">Ваш опыт</label>
+            <textarea name="desc" autocomplete="off" id="desc" cols="30" rows="10" placeholder="Расскажите о себе"></textarea>
+            
+            <button type="reset">Сбросить</button>
+            <button type="submit">Отправить</button>        
+        </form>
+    </section>
+    <section class="logic-block">
+        <h2>Дополнительные требования</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex asperiores ratione eligendi? Pariatur nobis amet sunt reiciendis quia. Temporibus eum repudiandae numquam consectetur autem voluptate. <strong>Rerum tempore iure dignissimos voluptate similique at nulla aliquid debitis voluptas aut quis quos quam sint minima aliquam,</strong> dolore incidunt! Optio culpa nulla, odio repellendus animi quam iure dolorum perspiciatis officia modi ut voluptas necessitatibus dignissimos eum, <em>maxime qui aut esse sed vero officiis beatae voluptatem minima quos! Facilis provident iste quaerat, ut, sequi inventore ipsa architecto quia hic error deleniti praesentium omnis est nemo, non quam nobis labore molestiae.</em> Accusantium eaque eos ad maxime?</p>
+    </section>
+    <section>
+        <div class="map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Adaf8d4863423e616371664ed0eea6cddce7babe1d89455c8604bffa12efe1d45&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        </div>
+    </section>
+       </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <a href="/">Стажировки в <strong>IT</strong></a>
+            </div>
+            <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolores voluptatibus repellendus similique quidem ipsa ratione facere labore nesciunt culpa!</p>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
